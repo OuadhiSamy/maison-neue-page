@@ -1,0 +1,208 @@
+{
+    "maisonNue": [
+        {
+            "name": "Extra Thin",
+            "weight": 250,
+            "style": "normal"
+        },
+        {
+            "name": "Extra Thin Italic",
+            "weight": 250,
+            "style": "italic"
+        },
+        {
+            "name": "Thin",
+            "weight": 275,
+            "style": "normal"
+        },
+        {
+            "name": "Thin Italic",
+            "weight": 275,
+            "style": "normal"
+        },
+        {
+            "name": "Light",
+            "weight": 300,
+            "style": "normal"
+        },
+        {
+            "name": "Light Italic",
+            "weight": 300,
+            "style": "normal"
+        },
+        {
+            "name": "Book",
+            "weight": 400,
+            "style": "normal"
+        },
+        {
+            "name": "Book Italic",
+            "weight": 400,
+            "style": "normal"
+        },
+        {
+            "name": "Medium",
+            "weight": 500,
+            "style": "normal"
+        },
+        {
+            "name": "Medium Italic",
+            "weight": 500,
+            "style": "normal"
+        },
+        {
+            "name": "Demi",
+            "weight": 600,
+            "style": "normal"
+        },
+        {
+            "name": "Demi Italic",
+            "weight": 600,
+            "style": "normal"
+        },
+        {
+            "name": "Bold",
+            "weight": 700,
+            "style": "normal"
+        },
+        {
+            "name": "Bold Italic",
+            "weight": 700,
+            "style": "normal"
+        },
+        {
+            "name": "Extra Bold",
+            "weight": 800,
+            "style": "normal"
+        },
+        {
+            "name": "Extra Bold Italic",
+            "weight": 800,
+            "style": "normal"
+        },
+        {
+            "name": "Black",
+            "weight": 900,
+            "style": "normal"
+        },
+        {
+            "name": "Black Italic",
+            "weight": 900,
+            "style": "normal"
+        }
+    ],
+    "maisonNueExtended": [
+        {
+            "name": "Extended Extra Thin",
+            "weight": 250,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Extra Thin Italic",
+            "weight": 250,
+            "style": "italic"
+        },
+        {
+            "name": "Extended Thin",
+            "weight": 275,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Thin Italic",
+            "weight": 275,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Light",
+            "weight": 300,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Light Italic",
+            "weight": 300,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Book",
+            "weight": 400,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Book Italic",
+            "weight": 400,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Medium",
+            "weight": 500,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Medium Italic",
+            "weight": 500,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Demi",
+            "weight": 600,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Demi Italic",
+            "weight": 600,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Bold",
+            "weight": 700,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Bold Italic",
+            "weight": 700,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Extra Bold",
+            "weight": 800,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Extra Bold Italic",
+            "weight": 800,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Black",
+            "weight": 900,
+            "style": "normal"
+        },
+        {
+            "name": "Extended Black Italic",
+            "weight": 900,
+            "style": "normal"
+        }
+    ],
+    "maisonNueMono": [
+        {
+            "name": "Mono Regular",
+            "weight": 400,
+            "style": "normal"
+        },
+        {
+            "name": "Mono Italic",
+            "weight": 400,
+            "style": "italic"
+        },
+        {
+            "name": "Mono Bold",
+            "weight": 700,
+            "style": "normal"
+        },
+        {
+            "name": "Mono Bold Italic",
+            "weight": 700,
+            "style": "normal"
+        }
+    ]
+}
