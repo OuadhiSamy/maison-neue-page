@@ -133,6 +133,7 @@
                 fontSize: font.size + 'px',
                 fontWeight: font.weight,
                 fontFamily: font.family,
+                fontStyle: font.style,
               }"
             >
               Typography is the art and technique of arranging type to make
@@ -332,6 +333,7 @@ export default {
       this.font.weight = payload.fontWeight;
       this.font.family = payload.fontFamily;
       this.font.style = payload.fontStyle;
+      console.log(payload)
     },
   },
   mounted() {
