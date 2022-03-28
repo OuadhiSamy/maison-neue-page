@@ -179,6 +179,7 @@
                 :style="{
                   fontWeight: font.weight,
                   fontFamily: font.family,
+                  fontStyle: font.style,
                 }"
               >
                 {{ character }}
