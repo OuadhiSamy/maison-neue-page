@@ -1,24 +1,24 @@
 *,
 *:after,
 *:before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 html,
 body {
-  width: 100%;
-  height: 100vh;
-  font-size: 14px;
-  font-family: "Maison Mono";
-  font-weight: 600;
+    width: 100%;
+    height: 100vh;
+    font-size: 14px;
+    font-family: "Maison Mono";
+    font-weight: 600;
 }
 
-input[type='range'] {
-    background: linear-gradient(to right, #000 0%, #000 50%, #C4C4C4 50%, #C4C4C4 100%);
+input[type="range"] {
+    background: linear-gradient(to right, #000 0%, #000 50%, #c4c4c4 50%, #c4c4c4 100%);
     border-radius: 8px;
     height: 2px;
     width: 356px;
@@ -27,11 +27,22 @@ input[type='range'] {
     -webkit-appearance: none;
 }
 
-  input[type='range']::-webkit-slider-thumb {
+input[type="range"]::-webkit-slider-thumb {
     width: 20px;
     height: 20px;
     -webkit-appearance: none;
     cursor: ew-resize;
     border-radius: 100%;
     background: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
 }

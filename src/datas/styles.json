@@ -202,7 +202,7 @@
         {
             "name": "Mono Bold Italic",
             "weight": 700,
-            "style": "normal"
+            "style": "italic"
         }
     ]
 }
