@@ -110,26 +110,24 @@
           </p>
         </div>
         <span id="anchor1"></span>
-        
+        <div class="options">
+          <div>
+            <span>Size</span>
+            <input
+              ref="slider"
+              id="slider"
+              class="options__slider"
+              type="range"
+              v-model="font.size"
+              :min="8"
+              :max="56"
+            />
+            <span>{{ font.size }}</span>
+          </div>
+          <dropdown :list="styleList" @onStyleChange="updateStyle" />
+        </div>
         <div class="content__container text-size">
-           
           <div class="content__playground">
-            <div class="options">
-              <div>
-                <span>Size</span>
-                <input
-                  ref="slider"
-                  id="slider"
-                  class="options__slider"
-                  type="range"
-                  v-model="font.size"
-                  :min="8"
-                  :max="56"
-                />
-                <span>{{ font.size }}</span>
-              </div>
-              <dropdown :list="styleList" @onStyleChange="updateStyle" />
-            </div>
             <p
               :style="{
                 fontSize: font.size + 'px',
@@ -178,6 +176,10 @@
                 v-for="character in characterCat.content"
                 :key="character"
                 class="characters__item"
+                :style="{
+                  fontWeight: font.weight,
+                  fontFamily: font.family,
+                }"
               >
                 {{ character }}
               </div>
@@ -185,7 +187,6 @@
           </div>
           <span id="anchor4"></span>
         </div>
-        
       </main>
       <div class="font-use__container">
         <h2>Maison Neue in Use</h2>
@@ -630,7 +631,7 @@ main {
     display: flex;
     flex-direction: column;
     grid-column: 1/3;
-    margin-top: 80px;
+    margin: 80px 0 0 0;
     gap: 24px;
 
     &__item {
@@ -658,20 +659,6 @@ main {
     }
 
     &__playground {
-      .options {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 116px;
-        margin-bottom: 32px;
-
-        &__slider {
-          margin: 0 16px;
-          width: 200px;
-          transform: translateY(-3px);
-        }
-      }
-
       p {
         line-height: 1.5;
       }
@@ -691,11 +678,12 @@ main {
   }
 
   .characters {
+    margin-top: 40px;
     svg {
       transform: rotate(180deg);
       transition: 0.3s ease;
     }
-    margin-top: 40px;
+
     h2 {
       font-size: 16px;
       margin-bottom: 32px;
@@ -712,7 +700,7 @@ main {
       grid-template-columns: repeat(9, 1fr);
       gap: 8px;
       margin-bottom: 40px;
-      max-height: 500px;
+      max-height: 800px;
       transition: 0.2s ease;
 
       &.close {
@@ -729,7 +717,27 @@ main {
       aspect-ratio: 1;
       font-size: 40px;
       font-family: "Maison Neue Mono";
+      cursor: pointer;
     }
+  }
+}
+
+.options {
+  position: sticky;
+  z-index: 3;
+  top: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 116px;
+  padding: 24px 0;
+  grid-column: 3/13;
+  background: white;
+
+  &__slider {
+    margin: 0 16px;
+    width: 200px;
+    transform: translateY(-3px);
   }
 }
 
