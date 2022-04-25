@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div class="responsive__container">
+      <img src="/src/assets/responsive.jpg" alt="il est ou le responsive ?">
+      <p>Mais où qu'il est le responsive ?</p>
+    </div>
     <nav id="nav">
       <button class="button button__menu">
         <svg
