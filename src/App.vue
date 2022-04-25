@@ -195,7 +195,7 @@
         <div class="font-use__item">
           <img
             class="font-use__image"
-            src="https://www.milieugrotesque.com/uploads/MilieuGrotesque_MaisonNeue_Critical00---625.webp"
+            src="/src/assets/MilieuGrotesque_MaisonNeue_Critical00---625.webp"
             alt=""
           />
           <p class="font-use__legend">
@@ -207,7 +207,7 @@
         <div class="font-use__item">
           <img
             class="font-use__image"
-            src="https://www.milieugrotesque.com/uploads/MilieuGrotesque_MaisonNeue_A3A02---625.webp"
+            src="/src/assets/MilieuGrotesque_MaisonNeue_A3A02---625.webp"
             alt=""
           />
           <p class="font-use__legend">A3! <br />by Balcolony</p>
@@ -216,7 +216,7 @@
         <div class="font-use__item">
           <img
             class="font-use__image"
-            src="https://www.milieugrotesque.com/uploads/MilieuGrotesque_MaisonNeue_Bunch05---625.webp"
+            src="/src/assets/MilieuGrotesque_MaisonNeue_Bunch05---625.webp"
             alt=""
           />
           <p class="font-use__legend">
@@ -228,7 +228,7 @@
         <div class="font-use__item">
           <img
             class="font-use__image"
-            src="https://www.milieugrotesque.com/uploads/58107d62794ab---625.webp"
+            src="/src/assets/58107d62794ab---625.webp"
             alt=""
           />
           <p class="font-use__legend">
