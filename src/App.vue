@@ -296,41 +296,46 @@ export default {
   methods: {
     animationSequence() {
       gsap.to("#marquee1", {
+        delay: 0.3,
         duration: 0.8,
         y: "0%",
         ease: "Circ.easeOut",
       });
 
       gsap.to("#marquee2", {
-        duration: 0.5,
+        delay: 0.3,
+        duration: 0.8,
         y: "0%",
         ease: "Circ.easeOut",
       });
 
       gsap.to(".marquee__container", {
-        duration: 0.8,
-        delay: 1,
+        duration: 1,
+        delay: 2,
         bottom: 0,
         y: 0,
-        ease: "Pow2.easeOut",
+        ease: "Expo.easeOut",
       });
 
       gsap.to(".intro__text--wrapper span", {
         y: "0",
-        delay: 1,
-        duration: 0.8,
+        delay: 3,
+        duration: 1,
+        ease: "Expo.easeOut",
       });
 
       gsap.to(".intro__detail img", {
         x: "0",
-        delay: 1,
-        duration: 0.8,
+        delay: 3,
+        duration: 1,
+        ease: "Expo.easeOut",
       });
 
       gsap.to("#nav", {
         y: "0",
-        delay: 1,
-        duration: 0.8,
+        delay: 3,
+        duration: 1,
+        ease: "Expo.easeOut",
       });
     },
     updateStyle(payload) {
